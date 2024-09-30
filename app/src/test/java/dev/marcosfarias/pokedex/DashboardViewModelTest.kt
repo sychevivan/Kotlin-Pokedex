@@ -8,6 +8,7 @@ import dev.marcosfarias.pokedex.model.Pokemon
 import dev.marcosfarias.pokedex.ui.dashboard.DashboardViewModel
 import io.mockk.*
 import org.junit.*
+import org.junit.Assert.assertEquals
 
 class DashboardViewModelTest {
 
@@ -54,6 +55,40 @@ class DashboardViewModelTest {
         verify(exactly = 1) { dao.getEvolutionsByIds(input) }
         confirmVerified(dao)
         Assert.assertEquals(expected, result)
+    }
+
+    @Test
+    fun `getPokemonById should return Pokemon from DAO`() {
+        // Given
+        val pokemonId = "1"
+        val expectedPokemon = Pokemon(id = pokemonId, name = "Bulbasaur")
+        every { dao.getById(pokemonId) } returns MutableLiveData(expectedPokemon)
+
+        // When
+        val result = viewModel.getPokemonById(pokemonId)
+
+        // Then
+        assertEquals(expectedPokemon, result.value)
+    }
+
+    @Test
+    fun `getPokemonEvolutionsByIds should return Pokemon list from DAO`() {
+        // Given
+        val pokemonIds = listOf("1", "2", "3")
+        val expectedPokemonList = listOf(
+            Pokemon(id = "1", name = "Bulbasaur"),
+            Pokemon(id = "2", name = "Ivysaur"),
+            Pokemon(id = "3", name = "Venusaur")
+        )
+        every { dao.getEvolutionsByIds(pokemonIds) } returns MutableLiveData(
+            expectedPokemonList
+        )
+
+        // When
+        val result = viewModel.getPokemonEvolutionsByIds(pokemonIds)
+
+        // Then
+        assertEquals(expectedPokemonList, result.value)
     }
 
     companion object {
