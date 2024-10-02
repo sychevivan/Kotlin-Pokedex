@@ -1,6 +1,9 @@
 package dev.marcosfarias.pokedex
 
 import androidx.test.ext.junit.rules.activityScenarioRule
+import androidx.test.rule.GrantPermissionRule
+import com.kaspersky.components.alluresupport.withForcedAllureSupport
+import com.kaspersky.kaspresso.kaspresso.Kaspresso
 import com.kaspersky.kaspresso.testcases.api.testcase.TestCase
 import dev.marcosfarias.pokedex.screen.MainScreen
 import org.junit.Assert
@@ -8,7 +11,13 @@ import org.junit.Rule
 import org.junit.Test
 
 
-class MainScreenTest : TestCase() {
+class MainScreenTest : TestCase(kaspressoBuilder = Kaspresso.Builder.withForcedAllureSupport()
+) {
+    @get:Rule
+    val runtimePermissionRule: GrantPermissionRule = GrantPermissionRule.grant(
+        android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
+        android.Manifest.permission.READ_EXTERNAL_STORAGE
+    )
 
     @get:Rule
     val activityRule = activityScenarioRule<MainActivity>()

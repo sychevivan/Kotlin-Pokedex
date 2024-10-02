@@ -90,5 +90,6 @@ dependencies {
 //    testImplementation("io.mockk:mockk-agent-jvm:1.12.4")
     androidTestImplementation("com.kaspersky.android-components:kaspresso:1.5.3")
     androidTestImplementation("androidx.test.ext:junit-ktx:1.2.1")
+    androidTestImplementation("com.kaspersky.android-components:kaspresso-allure-support:1.5.3")
 
 }

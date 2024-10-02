@@ -1,0 +1,53 @@
+{
+    "name": "verifyIfFabCanBeExtended",
+    "start": 1727894029546,
+    "stop": 1727894034075,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "947e63c6-a7cf-47c7-822c-81d3cf51dceb",
+    "historyId": "af24c2649c2d681d0ca982280d47fc52",
+    "fullName": "dev.marcosfarias.pokedex.PokedexTest.verifyIfFabCanBeExtended",
+    "labels": [
+        {
+            "name": "package",
+            "value": "dev.marcosfarias.pokedex"
+        },
+        {
+            "name": "testClass",
+            "value": "dev.marcosfarias.pokedex.PokedexTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "verifyIfFabCanBeExtended"
+        },
+        {
+            "name": "suite",
+            "value": "dev.marcosfarias.pokedex.PokedexTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(675)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

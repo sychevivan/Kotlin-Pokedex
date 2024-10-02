@@ -1,0 +1,53 @@
+{
+    "name": "verifyIfRecyclerViewIsDisplayed",
+    "start": 1727894043115,
+    "stop": 1727894057911,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "e1e7646e-f837-465b-b36c-5fd235b3d58a",
+    "historyId": "f378360cb969338a433e8eb6eb591231",
+    "fullName": "dev.marcosfarias.pokedex.PokedexTest.verifyIfRecyclerViewIsDisplayed",
+    "labels": [
+        {
+            "name": "package",
+            "value": "dev.marcosfarias.pokedex"
+        },
+        {
+            "name": "testClass",
+            "value": "dev.marcosfarias.pokedex.PokedexTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "verifyIfRecyclerViewIsDisplayed"
+        },
+        {
+            "name": "suite",
+            "value": "dev.marcosfarias.pokedex.PokedexTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(675)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}
