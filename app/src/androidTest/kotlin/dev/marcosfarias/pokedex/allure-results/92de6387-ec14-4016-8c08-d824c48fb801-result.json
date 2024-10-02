@@ -1,0 +1,147 @@
+{
+    "name": "useAppContext",
+    "start": 1727893983055,
+    "stop": 1727893995761,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Check menu count",
+            "start": 1727893989216,
+            "stop": 1727893989671,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "f2f962a8-ee07-453d-8435-baec2d898cb1-attachment.png",
+                    "name": "MainScreenTest_step_1.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Check menu elements visibility",
+            "start": 1727893989673,
+            "stop": 1727893990719,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "397438ec-9351-4f97-8c28-f946fe0a6c8e-attachment.png",
+                    "name": "MainScreenTest_step_2.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Check menu elements content",
+            "start": 1727893990726,
+            "stop": 1727893991319,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "947427e0-19f9-4192-b31b-bb7a0ad73977-attachment.png",
+                    "name": "MainScreenTest_step_3.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Check news elements content",
+            "start": 1727893991320,
+            "stop": 1727893992004,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "df7217cc-3f3a-442d-8c06-bf4250af2a14-attachment.png",
+                    "name": "MainScreenTest_step_4.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "37b1e0d6-d8f1-46b1-9d10-6a4e75bcfbc5-attachment.txt",
+            "name": "TestLogcat.txt",
+            "type": "text/plain"
+        },
+        {
+            "source": "7c496035-03e0-4270-bf47-58ff7710b142-attachment.mp4",
+            "name": "Video_MainScreenTest.mp4",
+            "type": "video/mp4"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "92de6387-ec14-4016-8c08-d824c48fb801",
+    "historyId": "60cab95ba84ba29817edb897a66bb5aa",
+    "fullName": "dev.marcosfarias.pokedex.ExampleInstrumentedTest.useAppContext",
+    "labels": [
+        {
+            "name": "package",
+            "value": "dev.marcosfarias.pokedex"
+        },
+        {
+            "name": "testClass",
+            "value": "dev.marcosfarias.pokedex.ExampleInstrumentedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "useAppContext"
+        },
+        {
+            "name": "suite",
+            "value": "dev.marcosfarias.pokedex.ExampleInstrumentedTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(675)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

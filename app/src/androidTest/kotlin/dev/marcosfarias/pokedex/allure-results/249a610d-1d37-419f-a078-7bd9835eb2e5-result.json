@@ -1,0 +1,53 @@
+{
+    "name": "PokedexTest",
+    "start": 1727893995887,
+    "stop": 1727894019916,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "249a610d-1d37-419f-a078-7bd9835eb2e5",
+    "historyId": "b8c5138907d15781d7d689239e76a09f",
+    "fullName": "dev.marcosfarias.pokedex.Pokedex2Test.PokedexTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "dev.marcosfarias.pokedex"
+        },
+        {
+            "name": "testClass",
+            "value": "dev.marcosfarias.pokedex.Pokedex2Test"
+        },
+        {
+            "name": "testMethod",
+            "value": "PokedexTest"
+        },
+        {
+            "name": "suite",
+            "value": "dev.marcosfarias.pokedex.Pokedex2Test"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(675)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}
