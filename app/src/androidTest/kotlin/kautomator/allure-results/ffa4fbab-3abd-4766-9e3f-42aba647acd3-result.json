@@ -1,0 +1,105 @@
+{
+    "name": "1kautomatorTest",
+    "start": 1727979143575,
+    "stop": 1727979164859,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Check menu elements visibility",
+            "start": 1727979159454,
+            "stop": 1727979160664,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "31d7e2b2-38aa-42dd-a33d-c1798d52f246-attachment.png",
+                    "name": "MainScreen3Test_step_1.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        },
+        {
+            "name": "Check news elements visibility",
+            "start": 1727979160665,
+            "stop": 1727979161041,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "5b7d45fb-3348-4bd0-b67e-9fb241926c5c-attachment.png",
+                    "name": "MainScreen3Test_step_2.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "af7ae9ce-16da-482f-8a97-fc79ba72dbe0-attachment.txt",
+            "name": "TestLogcat.txt",
+            "type": "text/plain"
+        },
+        {
+            "source": "ec1d4d69-44e8-42d8-9802-ccfb071037d7-attachment.mp4",
+            "name": "Video_MainScreen3Test.mp4",
+            "type": "video/mp4"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "ffa4fbab-3abd-4766-9e3f-42aba647acd3",
+    "historyId": "8c657606133f736d232a98111f136a75",
+    "fullName": "kautomator.MainScreen3Test.1kautomatorTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "kautomator"
+        },
+        {
+            "name": "testClass",
+            "value": "kautomator.MainScreen3Test"
+        },
+        {
+            "name": "testMethod",
+            "value": "1kautomatorTest"
+        },
+        {
+            "name": "suite",
+            "value": "kautomator.MainScreen3Test"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(439)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

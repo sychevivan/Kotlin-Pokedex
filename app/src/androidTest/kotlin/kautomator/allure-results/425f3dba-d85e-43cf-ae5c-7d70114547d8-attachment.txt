@@ -1,0 +1,40 @@
+--------- beginning of main
+10-03 18:13:25.048 11113 11189 I KASPRESSO: ___________________________________________________________________________
+10-03 18:13:25.050 11113 11189 I KASPRESSO: Logcat buffer may be dumped from 10-03 18:13:25.048
+10-03 18:13:25.262 11113 11189 I KASPRESSO: Starting video recording: Video_Pokedex3Test.mp4
+10-03 18:13:25.262 11113 11189 I KASPRESSO: Waiting for 3000 ms
+10-03 18:13:25.275 11113 12071 D KASPRESSO: Display resolution: 1080x2040; supported codec resolution: 1088x1920
+10-03 18:13:25.275 11113 12071 D KASPRESSO: Starting video recording with resolution 1080x1920
+10-03 18:13:28.264 11113 11189 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 18:13:28.264 11113 11189 I KASPRESSO: BEFORE TEST SECTION
+10-03 18:13:28.264 11113 11189 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 18:13:28.457 11113 11189 I KASPRESSO: Wait 5000 for dev.marcosfarias.pokedex launch
+10-03 18:13:35.938 11113 11189 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 18:13:35.938 11113 11189 I KASPRESSO: TEST SECTION
+10-03 18:13:35.938 11113 11189 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 18:13:35.954 11113 11189 I KASPRESSO: The object: Object type=UiTextView. The operation: Action=CLICK(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewName\E', TEXT='\QPokedex\E']
+10-03 18:13:35.978 11113 11189 I KASPRESSO: ___________________________________________________________________________
+10-03 18:13:35.978 11113 11189 I KASPRESSO: TEST STEP: "1. Check elements" in Pokedex3Test
+10-03 18:13:35.979 11113 11189 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [TEXT='\QPokedex\E']
+10-03 18:13:36.852 11113 11189 I KASPRESSO: The object: Object type=UiButton. The operation: Action=CLICK(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/sd_main_fab\E']
+10-03 18:13:37.271 11113 11189 I KASPRESSO: The object: Object type=UiButton. The operation: Action=CLICK(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/sd_label\E', TEXT='\QAll Gen\E']
+10-03 18:13:47.257 11113 11189 I KASPRESSO: UiObject autoscroll to the bottom successfully performed.
+10-03 18:13:47.257 11113 11189 I KASPRESSO: The object: Object type=UiButton. The operation: Action=CLICK(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/sd_label\E', TEXT='\QAll Gen\E']
+10-03 18:13:48.655 11113 11189 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewTitle\E', TEXT='\QGeneration I\E']
+10-03 18:13:52.520 11113 11189 I KASPRESSO: Reloading of the element is started
+10-03 18:13:52.535 11113 11189 I KASPRESSO: Reloading of the element is finished
+10-03 18:13:52.535 11113 11189 I KASPRESSO: Repeat action again with the reloaded element
+10-03 18:13:52.536 11113 11189 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewTitle\E', TEXT='\QGeneration I\E']
+10-03 18:13:52.544 11113 11189 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewTitle\E', TEXT='\QGeneration II\E']
+10-03 18:13:52.558 11113 11189 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewTitle\E', TEXT='\QGeneration III\E']
+10-03 18:13:52.558 11113 11189 I KASPRESSO: TEST STEP: "1. Check elements" in Pokedex3Test SUCCEED. It took 0 minutes, 16 seconds and 580 millis. 
+10-03 18:13:52.558 11113 11189 I KASPRESSO: ___________________________________________________________________________
+10-03 18:13:52.884 11113 11189 I KASPRESSO: Screenshot saved to /data/user/0/dev.marcosfarias.pokedex/files/screenshots/kautomator.Pokedex3Test/allGenTest/Pokedex3Test_step_1.png
+10-03 18:13:52.884 11113 11189 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 18:13:52.884 11113 11189 I KASPRESSO: AFTER TEST SECTION
+10-03 18:13:52.884 11113 11189 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 18:13:52.887 11113 11189 I KASPRESSO: Force stop dev.marcosfarias.pokedex
+10-03 18:13:52.887 11113 11189 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 18:13:52.887 11113 11189 I KASPRESSO: TEST PASSED
+10-03 18:13:52.887 11113 11189 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 18:13:52.904 11113 11189 I KASPRESSO: Dump logcat buffer to /data/user/0/dev.marcosfarias.pokedex/files/logcat/kautomator.Pokedex3Test/allGenTest/TestLogcat.txt: logcat -b default -d -t "10-03 18:13:25.048" -s "KASPRESSO","KASPRESSO_TEST"

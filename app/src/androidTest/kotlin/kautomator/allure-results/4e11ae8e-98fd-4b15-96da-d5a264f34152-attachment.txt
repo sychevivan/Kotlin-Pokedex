@@ -1,0 +1,41 @@
+--------- beginning of main
+10-03 16:22:16.540  1546  1654 I KASPRESSO: ___________________________________________________________________________
+10-03 16:22:16.542  1546  1654 I KASPRESSO: Logcat buffer may be dumped from 10-03 16:22:16.540
+10-03 16:22:16.554  1546  1654 I KASPRESSO: Starting video recording: Video_MainScreen3Test.mp4
+10-03 16:22:16.557  1546  1654 I KASPRESSO: Waiting for 3000 ms
+10-03 16:22:16.596  1546  1678 D KASPRESSO: Display resolution: 1080x2040; supported codec resolution: 1088x1920
+10-03 16:22:16.596  1546  1678 D KASPRESSO: Starting video recording with resolution 1080x1920
+10-03 16:22:19.559  1546  1654 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 16:22:19.559  1546  1654 I KASPRESSO: BEFORE TEST SECTION
+10-03 16:22:19.559  1546  1654 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 16:22:20.652  1546  1654 I KASPRESSO: Wait 5000 for dev.marcosfarias.pokedex launch
+10-03 16:22:28.891  1546  1654 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 16:22:28.891  1546  1654 I KASPRESSO: TEST SECTION
+10-03 16:22:28.891  1546  1654 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 16:22:29.029  1546  1654 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/search_text\E']
+10-03 16:22:29.031  1546  1654 I KASPRESSO: ___________________________________________________________________________
+10-03 16:22:29.031  1546  1654 I KASPRESSO: TEST STEP: "1. Check menu elements visibility" in MainScreen3Test
+10-03 16:22:29.074  1546  1654 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewName\E', TEXT='\QPokedex\E']
+10-03 16:22:29.115  1546  1654 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewName\E', TEXT='\QMoves\E']
+10-03 16:22:29.153  1546  1654 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewName\E', TEXT='\QAbilities\E']
+10-03 16:22:29.193  1546  1654 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewName\E', TEXT='\QItems\E']
+10-03 16:22:29.220  1546  1654 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewName\E', TEXT='\QLocations\E']
+10-03 16:22:29.248  1546  1654 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewName\E', TEXT='\QType Charts\E']
+10-03 16:22:29.249  1546  1654 I KASPRESSO: TEST STEP: "1. Check menu elements visibility" in MainScreen3Test SUCCEED. It took 0 minutes, 0 seconds and 218 millis. 
+10-03 16:22:29.250  1546  1654 I KASPRESSO: ___________________________________________________________________________
+10-03 16:22:29.461  1546  1654 I KASPRESSO: Screenshot saved to /data/user/0/dev.marcosfarias.pokedex/files/screenshots/kautomator.MainScreen3Test/1kautomatorTest/MainScreen3Test_step_1.png
+10-03 16:22:29.465  1546  1654 I KASPRESSO: ___________________________________________________________________________
+10-03 16:22:29.465  1546  1654 I KASPRESSO: TEST STEP: "2. Check news elements visibility" in MainScreen3Test
+10-03 16:22:29.486  1546  1654 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewName\E', TEXT='\QPokémon Rumble Rush Arrives Soon\E']
+10-03 16:22:29.509  1546  1654 I KASPRESSO: The object: Object type=UiTextView. The operation: Check=IS_DISPLAYED(description={null}. Additional info: the object was founded by selector=BySelector [RES='\Qdev.marcosfarias.pokedex:id/textViewName\E', TEXT='\QPokémon Rumble Rush Arrives Soon\E']
+10-03 16:22:29.510  1546  1654 I KASPRESSO: TEST STEP: "2. Check news elements visibility" in MainScreen3Test SUCCEED. It took 0 minutes, 0 seconds and 45 millis. 
+10-03 16:22:29.510  1546  1654 I KASPRESSO: ___________________________________________________________________________
+10-03 16:22:29.737  1546  1654 I KASPRESSO: Screenshot saved to /data/user/0/dev.marcosfarias.pokedex/files/screenshots/kautomator.MainScreen3Test/1kautomatorTest/MainScreen3Test_step_2.png
+10-03 16:22:29.740  1546  1654 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 16:22:29.741  1546  1654 I KASPRESSO: AFTER TEST SECTION
+10-03 16:22:29.741  1546  1654 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 16:22:29.742  1546  1654 I KASPRESSO: Force stop dev.marcosfarias.pokedex
+10-03 16:22:29.743  1546  1654 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 16:22:29.743  1546  1654 I KASPRESSO: TEST PASSED
+10-03 16:22:29.743  1546  1654 I KASPRESSO: ---------------------------------------------------------------------------
+10-03 16:22:29.747  1546  1654 I KASPRESSO: Dump logcat buffer to /data/user/0/dev.marcosfarias.pokedex/files/logcat/kautomator.MainScreen3Test/1kautomatorTest/TestLogcat.txt: logcat -b default -d -t "10-03 16:22:16.540" -s "KASPRESSO","KASPRESSO_TEST"
