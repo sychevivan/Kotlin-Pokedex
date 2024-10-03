@@ -1,0 +1,84 @@
+{
+    "name": "PokedexTest3",
+    "start": 1727979165202,
+    "stop": 1727979203145,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Check menu elements content",
+            "start": 1727979178408,
+            "stop": 1727979198183,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+            ],
+            "attachments": [
+                {
+                    "source": "86ca8ecf-80e4-4e63-9525-3d737a6b8cfb-attachment.png",
+                    "name": "Pokedex3Test_step_1.png",
+                    "type": "image/png"
+                }
+            ],
+            "parameters": [
+            ]
+        }
+    ],
+    "attachments": [
+        {
+            "source": "670bcac2-29a5-490e-b7d0-e2402cd56d83-attachment.txt",
+            "name": "TestLogcat.txt",
+            "type": "text/plain"
+        },
+        {
+            "source": "a6711dbe-1b59-431a-897c-6fe4668b0be6-attachment.mp4",
+            "name": "Video_Pokedex3Test.mp4",
+            "type": "video/mp4"
+        }
+    ],
+    "parameters": [
+    ],
+    "uuid": "d974e29e-9187-42a5-89cf-cbf9d609feb7",
+    "historyId": "9995e04e5adb137f311506df9e695a4e",
+    "fullName": "kautomator.Pokedex3Test.PokedexTest3",
+    "labels": [
+        {
+            "name": "package",
+            "value": "kautomator"
+        },
+        {
+            "name": "testClass",
+            "value": "kautomator.Pokedex3Test"
+        },
+        {
+            "name": "testMethod",
+            "value": "PokedexTest3"
+        },
+        {
+            "name": "suite",
+            "value": "kautomator.Pokedex3Test"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.kaspersky.kaspresso.runner.KaspressoRunner(439)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}
