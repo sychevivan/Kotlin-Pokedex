@@ -4,6 +4,7 @@ plugins {
     id("kotlin-parcelize")
     id("kotlin-kapt")
     id("androidx.navigation.safeargs.kotlin")
+    id("org.jetbrains.kotlinx.kover") version "0.9.0-RC"
 }
 apply(from = "../ktlint.gradle.kts")
 
@@ -92,4 +93,14 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit-ktx:1.2.1")
     androidTestImplementation("com.kaspersky.android-components:kaspresso-allure-support:1.5.3")
 
+}
+
+kover {
+    reports {
+        verify {
+            rule("min 20") {
+                minBound(20)
+            }
+        }
+    }
 }
